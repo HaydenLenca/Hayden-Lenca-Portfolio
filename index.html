@@ -9,25 +9,25 @@
 </head>
 
 <body>
-    <header class="header">
+    <header class="header" id="top">
         <h1>Hayden Lenca's Portfolio</h1>
         <nav>
             <ul>
-                <li>Contact</li>
-                <li>Referals</li>
-                <li>Resume</li>
-                <li>Projects</li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#referals">Referals</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#projects">Class Projects</a></li>
             </ul>
         </nav>
     </header>
 
     <main>
     
-        <section  class="row justify-center">
+        <section  class="row justify-center" id="projects">
             <figure>
                 <div class="colum-div">
                     <div class="test">
-                        <h2>Link To Study Guide.</h2>
+                        <h2><a href="#project 1">Project 1</a></h2>
                     </div>
                 </div>
             </figure>
@@ -35,7 +35,7 @@
             <figure>
                 <div class="colum-div">
                     <div class="test">
-                        <h2>Link To Study Guide.</h2>
+                        <h2><a href="#">Project 2</a></h2>
                     </div>
                 </div>
             </figure>
@@ -43,61 +43,71 @@
             <figure>
                 <div class="colum-div">
                     <div class="test">
-                        <h2>Link To Study Guide.</h2>
+                        <h2><a href="#">Project 3</a></h2>
                     </div>
                 </div>
             </figure>
         </section>
 
 
-        <article class="referals referals-row justify-center">
+        <article class="referals referals-row justify-center" id="referals">
             
-                <!-- <h3>Referals</h3> -->
+                <h3>Referals</h3>
 
                 <div class="colum-div">
                     <div class="referals-contact">
-                        <p>Name John Green</p>
-                        <p>Contact (###)###-###</p>
-                        <p>Email *********@***.***</p>
+                        <p>Name: John Doe</p>
+                        <p>Contact: (###)###-###</p>
+                        <p>Email: *********@***.***</p>
                     </div>
                 </div>
 
                 <div class="colum-div">
                     <div class="referals-contact">
-                        <p>Name John Green</p>
-                        <p>Contact (###)###-###</p>
-                        <p>Email *********@***.***</p>
+                        <p>Name: John Doe</p>
+                        <p>Contact: (###)###-###</p>
+                        <p>Email: *********@***.***</p>
                     </div>
                 </div>
 
                 <div class="colum-div">
                     <div class="referals-contact">
-                        <p>Name John Green</p>
-                        <p>Contact (###)###-###</p>
-                        <p>Email *********@***.***</p>
-                    </div>
-                </div>
-
-                <div class="colum-div">
-                    <div class="referals-contact">
-                        <p>Name John Green</p>
-                        <p>Contact (###)###-###</p>
-                        <p>Email *********@***.***</p>
+                        <p>Name: John Doe</p>
+                        <p>Contact: (###)###-###</p>
+                        <p>Email: *********@***.***</p>
                     </div>
                 </div>
                 
             
         </article>
 
-        <div class="hero"></div>
+        <div class="about-me" id="about">
+            <h3>About Me</h3>
+            <p>Hello everyone, in this section I will tell you a little about me. I grew up in Michigan and moved to Arizona to persue a better life path.
+                after spending a few years saving money I decided to get into web development. After trying on my own it became very frusterating.
+                On the verg of giving up I decided to take a bootcamp from MSU to get me on the path to greatness. Now here I am building web pages and persuing the path that will be a great acheivment.
+            </p>
+            <img src="./assets/images/imageofme.jpg" alt="Image of Me"/>
+        </div>
 
-        <article class="contact">
+        <section>
+            <p  class="bold">Projects will be added below!</p>
+
+            <a href="https://haydenlenca.github.io/prework-study-guide/" class="projects-image" id="project 1"><img src="./assets/images/prework.png" alt="Pre-Work" /></a>
+
+            <p class="bold bold-bottom">More projects coming soon!</p>
+
+        </section>
+
+        <article class="contact" id="contact">
             <div>
-                <h3>Hayden Lenca</h3>
+                <h3>My Contact Info</h3>
+                <p>Hayden Lenca</p>
                 <p>(906)290-####</p>
-                <p>Email. Hl****@me.com</p>
+                <p>Email. Hl****@**.com</p>
             </div>
         </article>
+
 
     </main>
     
@@ -105,11 +115,10 @@
         <h4>Thank you for visiting my page</h4>
         <nav>
             <ul>
-                <li>Top<span>/</span>  </li>
-                <li>Pre-Work<span>/</span></li>
-                <li>Page Structure<span>/</span></li>
-                <li>Resume<span>/</span></li>
-                <li>Contact</li>
+                <li><a href="#top">Top</a><span>/</span>  </li>
+                <li><a href="#projects">Projects</a><span>/</span></li>
+                <li><a href="#about">About Me</a><span>/</span></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
     </footer>
