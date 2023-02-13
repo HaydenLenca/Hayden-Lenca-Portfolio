@@ -181,6 +181,13 @@ nav a {
     justify-content: center;
 }
 
+.img-border {
+    border: #00fd9c 5px solid;
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+}
+
 @media screen and (max-width: 996px) {
     .header,
     .row,
