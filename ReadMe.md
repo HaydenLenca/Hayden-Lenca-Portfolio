@@ -19,9 +19,9 @@ N/A
 
 ## Links
 
-[Git Hub](targetURL)
+[Git Hub](https://github.com/HaydenLenca/Hayden-Lenca-Portfolio)
 
-[Deployed Site](targetURL)
+[Deployed Site](https://haydenlenca.github.io/Hayden-Lenca-Portfolio/)
 
 ## License
 
