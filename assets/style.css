@@ -18,7 +18,7 @@ body {
     display: flex;
     flex-direction: column;
     line-height: 1.3;
-    background-color: #504f4f;
+    background-image: url("./images/istockphoto-1129029770-170667a.jpg");
   }
 
 .header {
@@ -81,17 +81,19 @@ nav a {
 
 .about-me {
     text-align: center;
-    font-size: var(--margin-20);
+    font-size: var(--margin-30);
     font-family: 'Times New Roman', Times, serif;
+    color: var(--white);
     line-height: var(--margin-30);
     margin: 0 40px 0 40px;
-    border: var(--black) 2px solid;
+    border: var(--wh) 2px solid;
     height: 100%;
-    background-color: aqua;
+    background-image: url('./images/cedarBranch.jpg');
+    background-size: 101%;
 }
 
 .test {
-    border: solid #020475;
+    border: solid #7d7d81;
     border-width: var(--margin-10);
     border-radius: var(--margin-30);
     margin: var(--margin-20);
@@ -187,12 +189,31 @@ nav a {
     justify-content: center;
 }
 
+#projects {
+    background-image: url('./images/cherryBorder.jpg');
+}
+
 .img-border {
-    border: #00fd9c 5px solid;
+    background-image: url('./images/woodBorder.jpg');
+    background-size: 30%;
+    border: #003303 3px solid;
     color: var(--white);
     font-size: var(--margin-20);
     text-align: center;
 }
+
+.p1Size {
+    margin: 1%;
+}
+
+.p2Size {
+    margin: 2%;
+}
+
+.p3Size {
+    margin: 3%;
+}
+
 
 @media screen and (max-width: 996px) {
     .header,
